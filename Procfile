@@ -1,2 +1,1 @@
-web: g4f api
-web: g4f gui
+web: python -m g4f.cli api --bind "0.0.0.0:$PORT" 
